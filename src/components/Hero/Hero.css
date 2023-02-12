@@ -53,7 +53,9 @@
     margin-top: 10%;
     margin-left: 5%;
     text-align: left;
-    font-weight: 300;
+    font-weight: 200;
+    letter-spacing: 4px;
+    text-transform: uppercase;
     font-family: 'Lexend', sans-serif;
 }
 .left-hero span {

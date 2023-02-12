@@ -4,6 +4,9 @@ import Hero from './components/Hero/Hero';
 
 import { LocomotiveScrollProvider } from 'react-locomotive-scroll';
 import About from './components/About/About';
+import Projects from './components/Projects/Projects';
+import Services from './components/Services/Services';
+import Contact from './components/Contact/Contact';
 
 function App() {
   const containerRef = useRef(null)
@@ -23,6 +26,9 @@ function App() {
       <main data-scroll-container ref={containerRef}>
         <Hero />
         <About />
+        <Services />
+        {/* <Projects /> */}
+        <Contact />
       </main>
   </LocomotiveScrollProvider>
   );

@@ -1,0 +1,13 @@
+.project-carousel-container {
+    background-color: black;
+}
+.project-header h2 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 5%;
+    text-align: center;
+}
+
+.projects-carousel {
+    width: 40%;
+}

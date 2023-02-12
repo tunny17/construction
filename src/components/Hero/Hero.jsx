@@ -28,7 +28,7 @@ const Hero = () => {
                     <img
                     src={one}
                     alt="img1"
-                    text="yam"
+                    className='carousel-image'
                     />
                     <h1 className='figure'>01</h1>
                     <img className='yam' src={oneB} alt="" />
@@ -37,6 +37,7 @@ const Hero = () => {
                     <img
                     src={three}
                     alt="img3"
+                    className='carousel-image'
                     />
                     <h1 className='figure'>02</h1>
                     <img className='yam' src={threeB} alt="" />
@@ -45,7 +46,7 @@ const Hero = () => {
                     <img
                     src={two}
                     alt="img2"
-                    text="yam2"
+                    className='carousel-image'
                     />
                     <h1 className='figure'>03</h1>
                     <img className='yam' src={twoB} alt="" />
