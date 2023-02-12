@@ -46,7 +46,7 @@
   font-size: 15rem;
   position: absolute;
   top: 50%;
-  left: -30%;
+  left: 0;
   -webkit-text-stroke: 1px rgba(255, 255, 255, 0.6);
   color: transparent;
   font-family: "Montserrat", sans-serif;
