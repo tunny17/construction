@@ -1,0 +1,6 @@
+export { default as one } from './1.jpg'
+export { default as oneB } from './1.1.jpg'
+export { default as two } from './2 (2).jpeg'
+export { default as twoB } from './2.2 (2).jpeg'
+export { default as three } from './3.jpeg'
+export { default as threeB } from './3.3.jpeg'
