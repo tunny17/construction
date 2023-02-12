@@ -13,14 +13,14 @@ const Hero = () => {
                         <a href="/" className='activeNav'>Home</a>
                     </li>
                     <li>About</li>
-                    <li>Our Services</li>
                     <li>Projects</li>
+                    <li>Our Services</li>
                     <li>Contact Us</li>
                 </ul>
             </nav>
         </div>
         <div className="left-hero">
-            <h2>Space<span>ville</span> Limited</h2>
+            <h2>Space <span>xpat</span></h2>
         </div>
         <div className="right-hero">
             <Carousel>
@@ -30,7 +30,7 @@ const Hero = () => {
                     alt="img1"
                     text="yam"
                     />
-                    <h1>01</h1>
+                    <h1 className='figure'>01</h1>
                     <img className='yam' src={oneB} alt="" />
                 </div>
                 <div>
@@ -38,7 +38,7 @@ const Hero = () => {
                     src={three}
                     alt="img3"
                     />
-                    <h1>02</h1>
+                    <h1 className='figure'>02</h1>
                     <img className='yam' src={threeB} alt="" />
                 </div>
                 <div>
@@ -47,7 +47,7 @@ const Hero = () => {
                     alt="img2"
                     text="yam2"
                     />
-                    <h1>03</h1>
+                    <h1 className='figure'>03</h1>
                     <img className='yam' src={twoB} alt="" />
                 </div>
             </Carousel>
