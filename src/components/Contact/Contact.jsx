@@ -2,30 +2,30 @@ import React from 'react'
 import './Contact.css'
 
 const Contact = () => {
-//   const formId = 'ADDOwWuO';
-//   const formSparkUrl = `https://submit-form.com/${formId}`;
+// //   const formId = 'ADDOwWuO';
+// //   const formSparkUrl = `https://submit-form.com/${formId}`;
 
-  const submitForm = async (event: FormEvent) => {
-    event.preventDefault();
-    // await postSubmission();
-  };
+//   const submitForm = async (event: FormEvent) => {
+//     event.preventDefault();
+//     // await postSubmission();
+//   };
 
-//   const postSubmission = async () => {
-//     const payload = {
-//         message: 'teesssst'
-//     };
+// //   const postSubmission = async () => {
+// //     const payload = {
+// //         message: 'teesssst'
+// //     };
 
-//     try {
+// //     try {
         
-//     } catch(error) {
+// //     } catch(error) {
 
-//     }
-//   }
+// //     }
+// //   }
 
   return (
     <div    className='contact-container'   data-scroll-section>
       <h1 className='contact-header'>Contact Our Team</h1>
-      <form onSubmit={submitForm}>
+      <form>
         <label htmlFor="name">Name <br />
           <input type="text" id='name'  placeholder='Type your name here'/>
         </label>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Services.css'
-import { services } from '../../assets'
+import { meet1, meet2, meet3, meet4, services } from '../../assets'
 import { MdOutlineConstruction } from 'react-icons/md'
 import { MdApartment } from 'react-icons/md'
 import { SiBuildkite } from 'react-icons/si'
@@ -47,7 +47,35 @@ const Services = () => {
                 <h3>General Contracting</h3>
                 <p>We have a long list of professional contractors, whom our engineers and architects enjoy to work with on a majority of our construction projects!</p>
             </div>
+        </div>
+        <div  className='meet-container'>
+            <div className="meet-left">
+                <div className="meet-left-text">
+                    <h2>our team</h2>
+                    <h1>Meet Our <br /> Team Members</h1>
+                </div>
+                <div className="left-pictures">
+                    <figure>
+                        <img src={meet1} alt="" />
+                        <figcaption></figcaption>
+                    </figure>
+                    <figure>
+                        <img src={meet2} alt="" />
+                        <figcaption></figcaption>
+                    </figure>
+                </div>
             </div>
+            <div className="meet-right">
+                <figure>
+                    <img src={meet3} alt="" />
+                    <figcaption></figcaption>
+                </figure>
+                <figure>
+                    <img src={meet4} alt="" />
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+        </div>
     </div>
   )
 }
