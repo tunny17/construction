@@ -1,6 +1,6 @@
 import React from 'react'
 import './Project.css'
-import { one, oneB, project1, project2, project3, project4, project5, project6, three, threeB, two, twoB } from '../../assets'
+import { project1, project2, project3, project4, project5, project6 } from '../../assets'
 import Carousel from '../Carousel/Carousel'
 
 const Projects = () => {
