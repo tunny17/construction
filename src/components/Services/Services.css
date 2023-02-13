@@ -7,6 +7,7 @@ header h1 {
 }
 header {
     text-align: left;
+    transition: 1s ease;
 }
 .container {
     display: flex;
@@ -122,8 +123,32 @@ header {
     font-size: 3rem;
 }
 
-.meet-container img {
+figure {
+    width: 60%;
+    position: relative;
+    margin: 3%;
+    transition: 1s ease;
+}
+figure img {
     width: 100%;
-    height: 40%;
+    height: 40vh;
     padding: 1% 5%;
+}
+figure:hover {
+    transform: scale(1.1);
+    transition: 1s ease;
+}
+figcaption {
+    position: absolute;
+    bottom: -2%;
+    left: 3%;
+    width: 100%;
+    padding: 3% 0;
+    background-color: #fff;
+    font-family: 'Lexend';
+    font-size: 0.7rem;
+    letter-spacing: 3px;
+    text-align: center;
+    line-height: 20px;
+    text-transform: uppercase;
 }

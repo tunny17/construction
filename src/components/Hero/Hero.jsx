@@ -12,7 +12,9 @@ const Hero = () => {
                     <li>
                         <a href="/" className='activeNav'>Home</a>
                     </li>
-                    <li>About</li>
+                    <li>
+                        <a href="/" className='activeNav'>About</a>
+                    </li>
                     <li>Projects</li>
                     <li>Our Services</li>
                     <li>Contact Us</li>

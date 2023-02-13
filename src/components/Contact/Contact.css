@@ -71,4 +71,5 @@ input::placeholder {
     color: orange;
     border: 1px solid orange;
     background-color: #fff;
+    transition: 0.8s ease;
 }

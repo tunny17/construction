@@ -1,6 +1,6 @@
 import React from 'react'
 import './Services.css'
-import { meet1, meet2, meet3, meet4, services } from '../../assets'
+import { meet1, meet2, meet3, meet4, meet5, services } from '../../assets'
 import { MdOutlineConstruction } from 'react-icons/md'
 import { MdApartment } from 'react-icons/md'
 import { SiBuildkite } from 'react-icons/si'
@@ -56,23 +56,27 @@ const Services = () => {
                 </div>
                 <div className="left-pictures">
                     <figure>
-                        <img src={meet1} alt="" />
-                        <figcaption></figcaption>
+                        <img src={meet2} alt="" />
+                        <figcaption>Architect</figcaption>
                     </figure>
                     <figure>
-                        <img src={meet2} alt="" />
-                        <figcaption></figcaption>
+                        <img src={meet3} alt="" />
+                        <figcaption>BIM / Project Manager</figcaption>
                     </figure>
                 </div>
             </div>
             <div className="meet-right">
                 <figure>
-                    <img src={meet3} alt="" />
-                    <figcaption></figcaption>
+                    <img src={meet1} alt="" />
+                    <figcaption>CEO / Architect / Project Manager</figcaption>
                 </figure>
                 <figure>
-                    <img src={meet4} alt="" />
-                    <figcaption></figcaption>
+                    <img src={meet4} alt=""/>
+                    <figcaption>Procurement Officer</figcaption>
+                </figure>
+                <figure>
+                    <img src={meet5} alt=""/>
+                    <figcaption>quantity surveyor / site manager </figcaption>
                 </figure>
             </div>
         </div>
