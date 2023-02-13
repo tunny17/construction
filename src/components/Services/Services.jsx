@@ -83,7 +83,7 @@ const Services = () => {
                     <img src={meet4} alt=""/>
                     <figcaption>
                         <h3>Sewedo Omoniyi</h3>
-                        <p>Procurement Officer</p>
+                        <p>Procurement Officer <br />(Bsc Geophysics, Bsc Project Management)</p>
                     </figcaption>
                 </figure>
                 <figure>
