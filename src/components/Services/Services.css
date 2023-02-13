@@ -124,14 +124,14 @@ header {
 }
 
 figure {
-    width: 60%;
+    width: 65%;
     position: relative;
-    margin: 3%;
+    margin: 10% 3%;
     transition: 1s ease;
 }
 figure img {
     width: 100%;
-    height: 40vh;
+    height: 45vh;
     padding: 1% 5%;
 }
 figure:hover {
@@ -140,15 +140,24 @@ figure:hover {
 }
 figcaption {
     position: absolute;
-    bottom: -2%;
+    bottom: -14%;
     left: 3%;
     width: 100%;
-    padding: 5% 0;
+    padding: 5% 10%;
     background-color: #fff;
     font-family: 'Lexend';
     font-size: 0.7rem;
     letter-spacing: 3px;
     text-align: center;
     line-height: 20px;
+}
+figcaption p {
+    margin-top: 2%;
+    font-size: 0.6rem;
     text-transform: uppercase;
+}
+figcaption h3 {
+    font-family: 'Lexend';
+    letter-spacing: 1px;
+    font-size: 1rem;
 }

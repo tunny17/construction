@@ -11,3 +11,6 @@
 .projects-carousel {
     width: 40%;
 }
+.next {
+    right: -10px;
+}

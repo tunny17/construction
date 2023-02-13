@@ -26,8 +26,8 @@
   height: 100%;
 }
 
-.carousel-image {
-  width: 100%;
+.project-carousel {
+  width: 60%;
   height: 100%;
   white-space: nowrap;
 }
@@ -85,27 +85,26 @@
   display: none;
 }
 
-.prev {
-  display: none;
+.prev1 {
   position: absolute;
   top: 50%;
   left: 5%;
   transform: translateY(-50%);
   cursor: pointer;
   color: #fff;
+  z-index: 900;
+  zoom: 1.5;
 }
 
-.next {
-  display: none;
+.next1 {
   position: absolute;
   top: 50%;
-  /* right: -5%; */
+  right: 5%;
   transform: translateY(-50%);
   color: #fff;
   cursor: pointer;
   z-index: 900;
-  /* padding: 0.6rem;
-  border-radius: 100px; */
+  zoom: 1.5;
 }
 
 button {

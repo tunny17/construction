@@ -1,7 +1,7 @@
 import React from 'react'
 import './Project.css'
 import { project1, project2, project3, project4, project5, project6 } from '../../assets'
-import Carousel from '../Carousel/Carousel'
+import ProjectCarousel from '../ProjectCarousel/ProjectCarousel'
 
 const Projects = () => {
   return (
@@ -10,13 +10,13 @@ const Projects = () => {
         <h2 className='project-heading'>Projects</h2>
       </div>
       <div  className='project-carousel-container'>
-        <Carousel>
+        <ProjectCarousel>
           <div>
             <img
             src={project4}
             alt="img1"
             text="yam"
-            className='carousel-image projects-carousel'
+            className='projects-carousel'
             />
             <h1 className='figure'>01</h1>
           </div>
@@ -59,7 +59,7 @@ const Projects = () => {
             />
             <h1 className='figure'>06</h1>
           </div>
-        </Carousel>
+        </ProjectCarousel>
       </div>
     </div>
   )

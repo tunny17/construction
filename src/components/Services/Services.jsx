@@ -57,26 +57,41 @@ const Services = () => {
                 <div className="left-pictures">
                     <figure>
                         <img src={meet2} alt="" />
-                        <figcaption>Architect</figcaption>
+                        <figcaption>
+                            <h3>Akiboi Paul</h3>
+                            <p>Architect <br /> (Bsc Architecture, Msc Architecture)</p>
+                        </figcaption>
                     </figure>
                     <figure>
                         <img src={meet3} alt="" />
-                        <figcaption>BIM / Project Manager</figcaption>
+                        <figcaption>
+                            <h3>Ayanwole Peters</h3>
+                            <p>BIM / Project Manager <br /> (Bsc Architecture, Msc Bim)</p>
+                        </figcaption>
                     </figure>
                 </div>
             </div>
             <div className="meet-right">
                 <figure>
                     <img src={meet1} alt="" />
-                    <figcaption>CEO / Architect / Project Manager</figcaption>
+                    <figcaption>
+                        <h3>Babatunde Oluwatosin</h3>
+                        <p>CEO / Architect / Project Manager <br /> (Bsc Architecture,   Msc Construction)</p>
+                    </figcaption>
                 </figure>
                 <figure>
                     <img src={meet4} alt=""/>
-                    <figcaption>Procurement Officer</figcaption>
+                    <figcaption>
+                        <h3>Sewedo Omoniyi</h3>
+                        <p>Procurement Officer</p>
+                    </figcaption>
                 </figure>
                 <figure>
                     <img src={meet5} alt=""/>
-                    <figcaption>quantity surveyor / site manager </figcaption>
+                    <figcaption>
+                        <h3>Benjamin Egbuaba</h3>
+                        <p>quantity surveyor / site manager <br /> (Bsc QS, Msc Product Management)</p>
+                    </figcaption>
                 </figure>
             </div>
         </div>
