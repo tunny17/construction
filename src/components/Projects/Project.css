@@ -10,6 +10,7 @@
 
 .projects-carousel {
     width: 40%;
+    height: 100vh;
 }
 .next {
     right: -10px;
