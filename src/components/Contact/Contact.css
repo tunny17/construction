@@ -73,3 +73,22 @@ input::placeholder {
     background-color: #fff;
     transition: 0.8s ease;
 }
+
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20vh;
+    margin-left: -90%;
+    margin-top: 5%;
+}
+.contacts p {
+    line-height: 23px;
+}
+.contacts a {
+    text-decoration: none;
+    font-family: 'Lexend';
+    font-size: 1rem;
+    color: #000;
+}

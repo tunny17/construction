@@ -1,7 +1,17 @@
 import React from 'react'
 import './Contact.css'
 
+
+
 const Contact = () => {
+
+  function Mailto({ email, subject, body, ...props }) {
+    return (
+      <a href={`mailto:${email}?subject=${subject || ""}&body=${body || ""}`}>
+        {props.children}
+      </a>
+    );
+  }
 // //   const formId = 'ADDOwWuO';
 // //   const formSparkUrl = `https://submit-form.com/${formId}`;
 
@@ -21,7 +31,6 @@ const Contact = () => {
 
 // //     }
 // //   }
-
   return (
     <div    className='contact-container'   data-scroll-section>
       <h1 className='contact-header'>Contact Our Team</h1>
@@ -40,6 +49,15 @@ const Contact = () => {
         <br />
         <button className='contact-us-btn'>Submit</button>
       </form>
+      <div  className='contacts'>
+        <h3>Address</h3>
+        <p>Portobello Point 2. <br /> Sheffield, United Kingdom.</p>
+        <p>No 27, Moore Road. <br /> Yaba, Lagos.</p>
+        <Mailto className='mailto' email="foo@tosinbabatunde@infospacexpat.com" subject="Hello" body="Hello Mr Tosin!">
+          tosinbabatunde@infospacexpat.com
+        </Mailto>
+      </div>
+      
     </div>
   )
 }
