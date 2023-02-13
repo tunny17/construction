@@ -1,10 +1,8 @@
 import React from 'react'
 import './Project.css'
 import "../ProjectCarousel/ProjectCarousel.css";
-import { con1, con10, con11, con12, con13, con14, con15, con16, con19, con2, con21, con22, con23, con24, con25, con26, con27, con3, con4, con5, con6, con7, con8, con9, project1, project2, project3, project4, project5, project6 } from '../../assets'
+import { con10, con11, con12, con13, con14, con15, con19, con2, con21, con22, con23, con24, con25, con26, con27, con3, con4, con5, con6, con7, con8, con9, project1, project2, project3, project4, project5 } from '../../assets'
 import ProjectCarousel from '../ProjectCarousel/ProjectCarousel'
-import { Player } from 'video-react';
-// import '~video-react/dist/video-react.css';
 
 const Projects = () => {
   return (
