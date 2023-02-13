@@ -1,4 +1,5 @@
 import React from 'react'
+import { Logo } from '../../assets'
 import './About.css'
 
 const About = () => {
@@ -22,6 +23,7 @@ const About = () => {
                 Our goal is to be an indigenous company with a global standard of operation. We have 
                 alliances with foreign technical partners with vast experience in the Construction sector.
             </p>
+            <img src={Logo} alt="" className='logo'/>
         </div>
     </div>
   )
