@@ -53,9 +53,12 @@ const Contact = () => {
         <h3>Address</h3>
         <p>Portobello Point 2. <br /> Sheffield, United Kingdom.</p>
         <p>No 27, Moore Road. <br /> Yaba, Lagos.</p>
-        <Mailto className='mailto' email="foo@tosinbabatunde@infospacexpat.com" subject="Hello" body="Hello Mr Tosin!">
-          tosinbabatunde@infospacexpat.com
-        </Mailto>
+        <p>
+          Email:  <Mailto className='mailto' email="foo@tosinbabatunde@infospacexpat.com" subject="Hello" body="Hello Mr Tosin!"> tosinbabatunde@infospacexpat.com</Mailto>
+        </p>
+        <p>
+          Reach us on <a href="http://www.linkedin.com/in/spaceville-limited-767b111a5">LinkedIn</a>
+        </p>
       </div>
       
     </div>
