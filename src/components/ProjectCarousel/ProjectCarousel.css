@@ -26,19 +26,10 @@
   height: 100%;
 }
 
-.project-carousel {
-  width: 60%;
+.projects-carousel {
+  width: 40%;
   height: 100%;
   white-space: nowrap;
-}
-
-.yam {
-  width: 35%;
-  height: 70vh;
-  position: absolute;
-  top: 20%;
-  left: -25%;
-  z-index: 200;
 }
 
 .figure {
