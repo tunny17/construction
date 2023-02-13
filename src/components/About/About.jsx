@@ -9,7 +9,7 @@ const About = () => {
             <h2>about us</h2>
             <h1>We Turn Ideas Into Reality</h1>
             <span>
-                Space ville Ltd is a wholly owned Nigerian company with one of its core business being Real
+                Spaceville Ltd is a wholly owned Nigerian company with one of its core business being Real
                 Estate Development, other services includes Construction, consultancy and management. 
             </span>
         </div>

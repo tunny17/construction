@@ -22,7 +22,7 @@ const Hero = () => {
             </nav>
         </div>
         <div className="left-hero">
-            <h2>Space <span>xpat</span></h2>
+            <h2>Space<span>ville</span>  Ltd</h2>
         </div>
         <div className="right-hero">
             <Carousel>
