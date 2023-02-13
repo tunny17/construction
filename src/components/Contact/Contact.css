@@ -78,9 +78,9 @@ input::placeholder {
 .contacts {
     display: flex;
     flex-direction: column;
+    text-align: center;
     justify-content: space-between;
-    height: 20vh;
-    margin-left: -90%;
+    height: 22vh;
     margin-top: 5%;
 }
 .contacts p {
